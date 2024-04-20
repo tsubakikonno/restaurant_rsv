@@ -1,3 +1,4 @@
+![ER drawio](https://github.com/tsubakikonno/restaurant_rsv/assets/116726136/011cd965-9bd5-4bfc-99af-ba60e558d022)
 #アプリケーション名
 アプリケーション名:Rese（リーズ）
 ある企業のグループ会社の飲食店予約サービスで、
