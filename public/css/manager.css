@@ -1,0 +1,94 @@
+.manager_page {
+    padding: 2px;
+    margin: 1%;
+}
+.manager_top{
+    text-align: center;
+}
+
+.reservation_all {
+    text-align: center;
+    display: flex; /* 要素を水平に配置する */
+    flex-wrap: wrap; /* 要素が折り返すようにする */
+    justify-content: space-around; /* 要素を等間隔で配置する */
+}
+
+.qrcode {
+    margin-left: 80%;
+}
+
+.check_qr {
+    width: 150px;
+    height: 75px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: solid 2px #239285;
+}
+
+.review,
+.restau_edit,
+.reservation_current,
+.reservation_past
+{
+    width: 500px;
+    margin: 1%;
+    border-radius: 10px;
+    border: solid 1px #acacac;
+    flex-grow: 1; /* 横幅を均等にする */
+    box-sizing: border-box; /* ボーダーボックスを含めて幅を計算する */
+}
+
+.reservation_current2 {
+    margin: 1%;
+    border: solid 1px #c3c3c3;
+    border-radius: 10px;
+}
+.review_edit {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.restau_edit_ttl{
+    margin: 2%;
+    font-size: 25px;
+    border-bottom: 2px solid #a1a1a1;
+}
+
+.restau_edit_name {
+    margin: 2%;
+    display: block;
+    height: 30px;
+    font-size: 25px;
+    width: 500px;
+    border-radius: 10px;
+    background: #fafafa;  
+}
+
+.restau_edit_outline {
+    margin: 2%;
+    display: block;
+    font-size: 25px;
+    width: 500px;
+    height: 200px;
+    white-space: pre-wrap;
+    border-radius: 10px;
+    resize: none;
+    background: #fafafa; 
+}
+
+.edit_btn {
+    margin: 2%;
+    font-size: 20px;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: #f9fafb;
+    background-color: #9c9c9c;
+}

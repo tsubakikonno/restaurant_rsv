@@ -1,0 +1,292 @@
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_Rese {
+    color: #1b4dff;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth_body{
+    background-color: rgb(242, 242, 242);
+}
+
+
+.Rese_auth {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央揃え */
+}
+
+.auth_ttl {
+    position: relative;
+    background: #1b4dff;
+    height: 40px;
+    width: calc(100% - 40px); /* 横幅からpaddingの合計20pxを引く */
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    font-size: 20px;
+    box-shadow: 5px 5px 4px #000;
+    margin: 0%;
+    padding: 20px; /* 左右に合計10pxのpadding */
+}
+
+.Rese_auth_contents {
+    position: relative;
+    background-color: #fff;
+    
+    padding: 40px 0 0 0px;
+    box-shadow: 5px 5px 4px #000;
+}
+
+@media screen and (max-width: 768px) {
+    .auth_ttl {
+        width: calc(100% - 20px); /* 横幅からpaddingの合計20pxを引く */
+        padding: 10px; /* 左右に合計10pxのpadding */
+    }
+    
+    .Rese_auth_contents {
+        width: 300px; /* 横幅からpaddingの合計20pxを引く */
+        padding: 20px; /* 上下左右に合計20pxのpadding */
+    }
+}
+
+/* ブレイクポイント768px以上の場合のスタイル */
+@media screen and (min-width: 769px) {
+    .auth_ttl {
+        height: 40px;
+        width: calc(100% - 40px); /* 横幅からpaddingの合計40pxを引く */
+        padding: 20px; /* 左右に合計20pxのpadding */
+    }
+    
+    .Rese_auth_contents {
+        width: 480px; /* .auth_ttl と同じ幅に合わせる */
+        padding: 40px 0 0 0px;
+    }
+}
+
+.information_each {
+    list-style: none;
+    padding: 0 35px 10px 10px;
+    display: flex;
+    /*コレ*/justify-content: right;
+}
+
+.input_field{
+    height: 40px;
+    width: 425px;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+.login-button {
+    background-color: #1b4dff;
+    color: #fff;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+.mypage {
+    display: flex;
+     margin: 2%;
+}
+.rsv_situation {
+    background: #3460ff;
+    width: 40%;
+    border-radius: 20px;
+    padding: 1%;
+   
+}
+
+
+.mypg-rsv{
+    padding: 3%;
+    list-style: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.rev_cg {
+    background-color: transparent;
+    color: #fff;
+    border: solid 1px #6a89fa;
+    font-size: 25px;
+
+}
+.rvw_btn,
+.cg_button {
+    background: #1b4dff;
+    border: solid 2px #fff;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 10px;
+}
+/*favrestauを表すcss*/
+
+
+.fav_restau {
+    width: 45%;
+    display: flex;
+    margin: 1%;
+    flex-wrap: wrap;
+}
+
+.restau_card {
+
+    width: 300px;
+    height: 350px;
+    background: #ffffff;
+    border-radius: 5% 5% 0  0;
+    margin: 2%;
+    padding-bottom: 8%;
+    box-shadow: 3px 3px 3px #a6a6a6;
+    border-radius: 10px;
+}
+
+.restau-img_dtl {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.dtl_txt{
+    display: flex;
+}
+
+.dtl_button{
+    display: inline-flex;
+}
+.restau_ttl{
+    padding: 1%;
+}
+.restau_btn{
+    margin: 0 auto 0 10%;
+    background: #1b4dff;
+    color: #fff;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+
+.heartfav {
+    width: 100px;
+    height: 90px;
+    position: relative;
+}
+.heartfav::before,
+.heartfav::after {
+    content: '';
+    width: 20px;
+    height: 35px;
+    position: absolute;
+    background: red;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+    top: 0;
+}
+.heartfav::before {
+    left: 85px;
+    top : -13px;
+    transform: rotate(45deg);
+}
+.heartfav::after {
+    left: 99px;
+    top: 1px;
+}
+
+button.heartfav {
+    background-color: transparent; /* 背景色を透明にする */
+    border: none; /* ボーダーをなくす */
+    outline: none; /* フォーカス時の枠線をなくす */
+}
+/**/
+
+ .review {
+    padding: 30px;
+ }
+
+ .review_ttl {
+    font-size: 25px;
+    text-decoration: underline;
+    text-decoration-color: #1b4dff;
+    text-decoration-thickness: 2px;
+ }
+
+ .review2 {
+    padding: 30px;
+    border: solid 1px #1b4dff;
+    border-radius: 10px;
+    margin-bottom: 3%;
+
+ }
+
+
+ .review_txt {
+    font-size: 18px;
+ }
+
+ .review_rate {
+    width: 110px;
+  height: 40px;
+  margin: 4px;
+  border: 1px solid #2e2e2e;
+  border-radius: 10px;
+  background-color: #ffffff;
+  font-size: 18px;
+ }
+
+ .review_comment{
+    margin: 4px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    resize: none;
+    width: 200px;
+    height: 150px;
+ }
+
+ /*------------------------------------------------------------------------*/
+ 
+ .payment {
+    text-align: center;
+
+ }
+
+ .paymentform {
+    width: 400px;
+    height: 80px;
+    border-radius: 10px;
+    font-size: 30px;
+ }
+
+ .paymentbtn {
+
+    margin-top: 20px;
+    background: #1b4dff;
+    color: #fff;
+    font-size: 20px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+ }

@@ -1,0 +1,94 @@
+.manager_crud {
+    margin: auto;
+    padding: 10px;
+}
+
+.manager_ttl {
+     
+}
+
+.manager_edit {
+   
+}
+
+.input_edit {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.manager_btn {
+    display: inline-block; /* 通常のレイアウトでは横並び */
+}
+
+.update {
+height: 30px;
+border-radius: 10px;
+font-size: 15px;
+color: #fff;
+background: #000;
+border: 1px solid #fff;
+}
+
+.delete {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #000;
+background: #fff;
+border: 1px solid #000;
+}
+
+.manager_crt {
+    text-align: center;
+}
+
+.create {
+    height: 30px;
+border-radius: 10px;
+font-size: 15px;
+color: #000000;
+background: #efefef;
+border: 1px solid #000000;
+
+}
+
+.input_crt {
+    height: 30px;
+    border-radius: 10px;
+    font-size: 15px;
+    width: 250px;
+}
+
+@media (max-width: 768px) {
+
+
+    .manager_edit {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .manager_ttl {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .manager_btn {
+        display: inline-block; 
+        margin-left: 20%;
+        margin-bottom: 25%;
+
+
+    }
+
+
+
+
+    
+}
+
+
+

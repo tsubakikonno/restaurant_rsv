@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - mysql
+      - mailhog
+
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_DATABASE: restau_rsv
+      MYSQL_ROOT_PASSWORD: your_mysql_root_password
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  mailhog:
+    image: mailhog/mailhog
+    container_name: mailhog
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+    volumes:
+      - mailhog_data:/var/mail
+
+volumes:
+  mysql_data:
+  mailhog_data:
