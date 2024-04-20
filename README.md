@@ -1,16 +1,16 @@
 
-#アプリケーション名
+## アプリケーション名
 
 アプリケーション名:Rese（リーズ）
 
 ## 作成した目的
 外部の飲食店予約サービスは手数料を取られるので自社で予約サービスを持ちたいため。
 
-##アプリケーションURL
+## アプリケーションURL
 
 ×
 
-##機能一覧
+##  機能一覧
 会員登録　
 ログイン　
 ログアウト　
@@ -37,13 +37,16 @@ QRコード
 決済機能
 環境の切り分け
 
-##使用技術(実行環境)
+## 使用技術(実行環境)
 Laravel　8.83.27
 CSS
 HTML
 Javascript
 
-##テーブル設計
+## テーブル設計 
+   ![table2](https://github.com/tsubakikonno/restaurant_rsv/assets/116726136/77daf7da-088e-4d89-9001-d52702c76eca)
+   ![table1](https://github.com/tsubakikonno/restaurant_rsv/assets/116726136/2ff6c367-0d12-4dff-93cf-2d0b2a812363)
+
 
 ## ER図
 ![ER drawio](https://github.com/tsubakikonno/restaurant_rsv/assets/116726136/011cd965-9bd5-4bfc-99af-ba60e558d022)
